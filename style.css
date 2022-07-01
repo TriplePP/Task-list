@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+body {
+  background: url(/img/cloud-background.svg);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Indie Flower", cursive;
+}
+
+h1 {
+  transform: translate(100px, 40px);
+}
+
+/* Delete button (x) on list items */
+span {
+  color: red;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+
+/* Input form */
+.task-input {
+  background-color: rgb(210, 240, 255);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+  transform: translateY(20px);
+}
+
+.task-input input:focus {
+  outline: none;
+}
+
+#task {
+  height: 1.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+/* Task list */
+.list-wrap {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.task-list {
+  background: url(/img/paper.jpg);
+  min-width: 400px;
+  min-height: 500px;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 5px;
+}
+
+.task-list-items {
+  transform: translateY(21px);
+  line-height: 2.62rem;
+  font-size: 1.6rem;
+}
+
+.item-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Clear task button */
+.clear-tasks {
+  padding: 0.5rem 1rem;
+  background-color: rgb(210, 240, 255);
+  border: grey;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.5rem;
+  transform: translateY(-20px);
+  box-shadow: 5px 5px 10px grey;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clear-tasks:hover {
+  background-color: white;
+}
