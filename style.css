@@ -72,11 +72,12 @@ span {
   transform: translateY(21px);
   line-height: 2.62rem;
   font-size: 1.6rem;
+  text-align: left;
 }
 
 .item-wrap {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /* Clear task button */
