@@ -6,6 +6,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: "Indie Flower", cursive;
+  min-height: -webkit-fill-available;
 }
 
 h1 {
